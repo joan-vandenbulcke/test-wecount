@@ -34,12 +34,14 @@
   color: #7970EE;
   font-size: 2rem;
   font-weight: 700;
+  transition: .2s;
 }
 
 .main__title {
   color: #212636;
   text-align: left;
   font-size: 3.5rem;
+  transition: .2s;
 }
 
 .main__description {
@@ -47,6 +49,7 @@
   font-size: 2rem;
   font-weight: 300;
   text-align: left;
+  transition: .2s;
 }
 
 .details {
@@ -168,4 +171,128 @@
   content: "";
   border: 1px solid #c2c6d1;
   height: 30px;
+}
+
+
+// Responsive design
+@media (max-width: 1200px) {
+
+  .main__title {
+    font-size: 2.5rem;
+  }
+
+  .main__description {
+    font-size: 1.5rem;
+  }
+
+  .links {
+    flex-direction: column;
+    border-radius: 40px;
+    font-size: 1.5rem;
+  }
+
+  .attachment {
+    width: 100%;
+  }
+
+  .comment {
+    width: 100%;
+  }
+
+  .separation {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+
+  .tag {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 960px) {
+
+  .details {
+    flex-direction: column;
+  }
+
+  .details__achievement {
+    font-size: 1.5rem;
+  }
+
+  .details__user--image-container {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .details__user--images {
+    width: fit-content;
+  }
+
+  .details__user--button {
+    font-size: 1.5rem;
+  }
+
+  .first__user {
+    position: relative;
+    right: 0;
+  }
+  
+  .second__user {
+    position: relative;
+    left: -15px;
+  }
+  
+  .third__user {
+    z-index: 1000;
+    position: relative;
+    left: -30px;
+  }
+}
+
+@media (max-width: 870px) {
+
+  .main__title {
+    font-size: 2rem;
+  }
+
+  .main__description {
+    font-size: 1rem;
+  }
+
+  .tag {
+    font-size: 1rem;
+  }
+
+  .links {
+    font-size: 1rem;
+    border-radius: 30px;
+  }
+}
+
+@media (max-width: 710px) {
+
+  .main__title {
+    font-size: 1.5rem;
+  }
+
+  .tag {
+    font-size: 1rem;
+  }
+
+  .details__user--button {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 520px) {
+
+  .tag {
+    font-size: 0.8rem;
+  }
+
+  .details__user--button {
+    font-size: 1rem;
+  }
 }
