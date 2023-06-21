@@ -10,7 +10,7 @@ L'application écoute localhost:5173
 
 ## Pour consulter le test DB (les diagrammes ont été réalisés sur Figma)
 
-- Option 1 : fichiers PDF et JPEG des MCD et MPD
+- Option 1 : fichiers PDF et JPEG des MCD et MPD dans le dossier "DB" du projet
 - Option 2 : visualiser les images ci-dessous
 
 ### MCD
