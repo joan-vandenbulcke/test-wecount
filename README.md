@@ -15,8 +15,8 @@ Option 2 : visualiser les images ci-dessous
 
 ### MCD
 
-`![MCD du Test DB WeCount](DB/Test%20DB%20WeCount%20(MCD).jpg)`
+![MCD du Test DB WeCount](DB/mcd.jpg)
 
 ### MPD
 
-`![MPD du Test DB WeCount](DB/Test%20DB%20WeCount%20(MPD).jpg)`
+![MPD du Test DB WeCount](DB/mpd.jpg)
