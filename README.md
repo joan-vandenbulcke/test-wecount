@@ -20,3 +20,13 @@ L'application écoute localhost:5173
 ### MPD
 
 ![MPD du Test DB WeCount](DB/mpd.jpg)
+
+### Représentation des tables de la DB
+
+- company
+- user (ref: company_id)
+- task
+- task has user (ref: role_id, user_id, task_id)
+- role
+- comment (ref: user_id)
+- task has task (pour que les tâches puissent être liées entre elles)
